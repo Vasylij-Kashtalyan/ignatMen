@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ignatMen/static/css/main.f855e6bc.css",
+    "main.js": "/ignatMen/static/js/main.f1e53cef.js",
+    "static/js/453.16b1a670.chunk.js": "/ignatMen/static/js/453.16b1a670.chunk.js",
+    "static/media/logo.svg": "/ignatMen/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ignatMen/index.html",
+    "main.f855e6bc.css.map": "/ignatMen/static/css/main.f855e6bc.css.map",
+    "main.f1e53cef.js.map": "/ignatMen/static/js/main.f1e53cef.js.map",
+    "453.16b1a670.chunk.js.map": "/ignatMen/static/js/453.16b1a670.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.f1e53cef.js"
+  ]
+}
