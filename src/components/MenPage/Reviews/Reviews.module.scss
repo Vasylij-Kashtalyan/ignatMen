@@ -1,0 +1,86 @@
+.Reviews {
+  width: 1366px;
+  margin: auto;
+  padding-top: 90px;
+  background-color: var(--color-wite);
+
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  &_content_btn {
+    border: none;
+    background-color: inherit;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  &_title {
+    color: var(--color-header-dark);
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight: 700;
+  }
+
+  &_title::after {
+    content: "(11)";
+    color: var(--color-title-sec);
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  &_list {
+    display: flex;
+  }
+
+  &_item {
+    width: 270px;
+    height: 250px;
+    border: 1px solid var(--color-black);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  &_item__add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &_item_text {
+    padding-left: 15px;
+    line-height: 20px;
+    color: var(--color-title-sec);
+  }
+
+  &_item_mask {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  &_item_star:not(:last-child) {
+    margin-right: 8px;
+    fill: #000;
+  }
+
+  &_item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &_item_add {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 140px;
+    border: 2px solid var(--color-black);
+  }
+
+  &_item_icon_add {
+    position: absolute;
+  }
+}

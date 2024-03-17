@@ -1,0 +1,39 @@
+.header {
+  width: 1366px;
+  margin: auto;
+  background-color: var(--color-header-dark);
+  box-shadow: 0px 4px 4px -1px rgba(0, 4, 4, 0.4);
+  border: 1px solid var(--color-black);
+
+  &_first {
+    display: flex;
+    justify-content: space-between;
+    min-height: 40px;
+    color: var(--color-wite);
+  }
+
+  &_box {
+    display: flex;
+    align-items: center;
+  }
+
+  &_box_help {
+    cursor: pointer;
+  }
+
+  &_box_help:nth-child(2) {
+    margin-left: 24px;
+  }
+
+  &_signIn {
+    display: flex;
+    align-items: center;
+  }
+
+  &_signIn_btn {
+    background-color: initial;
+    border: none;
+    color: var(--color-wite);
+    cursor: pointer;
+  }
+}
