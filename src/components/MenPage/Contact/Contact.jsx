@@ -53,28 +53,28 @@ function Contact() {
         <Container>
           <div className={s.Contact_bottom_content}>
             <ul className={s.Contact_list}>
-              <li className={s.Contact_item}>
+              <li className={s.Contact_bottom_item}>
                 <Link className={s.Contact_link} to="/">
                   новинки
                 </Link>
               </li>
 
-              <li className={`${s.Contact_item} ${s.NavBarr_current}`}>
+              <li className={s.Contact_bottom_item}>
                 <Link className={s.Contact_link} to="/">
                   чоловіки
                 </Link>
               </li>
-              <li className={s.Contact_item}>
+              <li className={s.Contact_bottom_item}>
                 <Link className={s.Contact_link} to="/">
                   жінки
                 </Link>
               </li>
-              <li className={s.Contact_item}>
+              <li className={s.Contact_bottom_item}>
                 <Link className={s.Contact_link} to="/">
                   аксесуари
                 </Link>
               </li>
-              <li className={s.Contact_item}>
+              <li className={s.Contact_bottom_item}>
                 <Link className={s.Contact_link} to="/">
                   акції
                 </Link>

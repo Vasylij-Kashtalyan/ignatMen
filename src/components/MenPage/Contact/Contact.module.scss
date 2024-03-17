@@ -20,6 +20,10 @@
     color: var(--color-title-sec);
   }
 
+  &_item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
   &_bottom {
     background-color: var(--color-header-dark);
     height: 93px;
@@ -31,8 +35,7 @@
     align-items: center;
   }
 
-  &_item {
-    position: relative;
+  &_bottom_item {
     font-weight: 500;
   }
 
@@ -40,7 +43,7 @@
     color: var(--color-wite);
   }
 
-  &_item:not(:last-child) {
+  &_bottom_item:not(:last-child) {
     margin-right: 28px;
   }
 
