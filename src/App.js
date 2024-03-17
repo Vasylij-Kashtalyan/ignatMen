@@ -10,12 +10,6 @@ function App() {
       <Suspense>
         <Routes>
           <Route path="/" element={<MenPage />} />
-
-          <Route path="/type" />
-
-          <Route path="/type/:name" />
-
-          <Route path="/:name" />
         </Routes>
       </Suspense>
     </>
