@@ -1,5 +1,5 @@
 import s from "./Contact.module.scss";
-import { Container } from "../../Container/Container";
+import { Container } from "../Container/Container";
 import { Link } from "react-router-dom";
 
 function Contact() {

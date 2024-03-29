@@ -1,0 +1,39 @@
+.item {
+  position: relative;
+
+  &_heart {
+    position: absolute;
+    background-color: var(--color-wite);
+    border-radius: 50%;
+    padding: 5px;
+    left: 90%;
+    top: 2%;
+  }
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &_title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: var(--color-header-dark);
+  }
+
+  &_text {
+    color: var(--color-title-sec);
+    margin-bottom: 10px;
+  }
+
+  &_price {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--color-price);
+    font-size: 17px;
+  }
+
+  &_price span {
+    font-weight: 700;
+    font-size: 11px;
+  }
+}

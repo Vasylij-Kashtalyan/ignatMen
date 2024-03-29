@@ -1,8 +1,8 @@
-import s from "./AppBarr.module.scss";
+import s from "./TopBarr.module.scss";
 import { Container } from "../Container/Container";
-import { NavBarr } from "./NavBarr/NavBarr";
+import { NavBarr } from "../NavBarr/NavBarr";
 
-function AppBar() {
+function TopBarr() {
   return (
     <>
       <header className={s.header}>
@@ -28,4 +28,4 @@ function AppBar() {
   );
 }
 
-export { AppBar };
+export { TopBarr };

@@ -1,0 +1,24 @@
+.item {
+  width: 270px;
+  height: 250px;
+  border: 1px solid var(--color-black);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+
+  &_text {
+    padding-left: 15px;
+    line-height: 20px;
+    color: var(--color-title-sec);
+  }
+
+  &_mask {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}

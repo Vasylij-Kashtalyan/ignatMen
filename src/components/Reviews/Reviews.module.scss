@@ -44,32 +44,13 @@
     flex-wrap: wrap;
     padding: 15px;
   }
-
+  &_item:not(:last-child) {
+    margin-right: 30px;
+  }
   &_item__add {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  &_item_text {
-    padding-left: 15px;
-    line-height: 20px;
-    color: var(--color-title-sec);
-  }
-
-  &_item_mask {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
-  }
-
-  &_item_star:not(:last-child) {
-    margin-right: 8px;
-    fill: #000;
-  }
-
-  &_item:not(:last-child) {
-    margin-right: 30px;
   }
 
   &_item_add {

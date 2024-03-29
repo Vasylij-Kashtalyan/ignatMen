@@ -1,0 +1,10 @@
+.btn_icon {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: inherit;
+  padding-top: 5px;
+}
+.btn_icon:not(:first-child) {
+  margin-left: 20px;
+}
